@@ -1,9 +1,9 @@
-// document 역시 오브젝트
-const title = document.querySelector("#title")
-// id로 찾으면 #title, class로 찾으면 .title
-title.innerHTML = "Hi From JS"
-title.style.color = "red"
-document.title = "I owe you"
-console.dir(document)
+const age = prompt("How old are you")
 
-// DOM : Document Object Module
+if (age >= 18 && age <= 21) {
+  console.log("you can drink but you should not")
+} else if (age > 21) {
+  console.log("go ahed")
+} else {
+  console.log("too young")
+}
